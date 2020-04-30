@@ -39,6 +39,11 @@ function cargarModuloAspel(){
             function (data)
             {
                 $('#divModulos').html(data);
+
+                $( document ).ready(function() {
+                    $('#modalAnuncio').modal('toggle')
+                });
+
             }
 );
 }
@@ -69,6 +74,8 @@ function cargarModuloCapacitacion(){
             function (data)
             {
                 $('#divModulos').html(data);
+                $('.modal-backdrop').removeClass();
+                
             }
 );
 }
@@ -78,6 +85,22 @@ function cargarModuloCursos(){
         {
             type: "GET",
             url: "modelo/cursos.html",
+            async: true
+        }
+    ).done(
+            function (data)
+            {
+                $('#divModulos').html(data);
+                $('.modal-backdrop').removeClass();
+            }
+);
+}
+
+function cargarModuloAsesoria(){
+    $.ajax(
+        {
+            type: "GET",
+            url: "modelo/asesoria.html",
             async: true
         }
     ).done(

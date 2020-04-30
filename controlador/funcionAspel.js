@@ -62,28 +62,36 @@ $(document).ready(function() {
       var img = '';
     switch(num){
         case 1:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/saeCosto.JPG" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae.jpg" class="img-fluid">'+
+                '<img src="vista/MDB v4.14.1/img/aspel/saeCosto.JPG" class="img-fluid">';
             break;
         case 2:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/coiCosto.JPG" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionCoi.jpg" class="img-fluid">'+
+            '<img src="vista/MDB v4.14.1/img/aspel/coiCosto.JPG" class="img-fluid">';
             break;
         case 3:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/bancosCosto.JPG" class="img-fluid">';
+            img ='<img src="vista/MDB v4.14.1/img/aspel/descripcionBancos.jpg" class="img-fluid">'+
+             '<img src="vista/MDB v4.14.1/img/aspel/bancosCosto.JPG" class="img-fluid">';
             break;
         case 4:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/admCosto.JPG" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionAdm.jpg" class="img-fluid">'+
+            '<img src="vista/MDB v4.14.1/img/aspel/admCosto.JPG" class="img-fluid">';
             break;
         case 5:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/factureCosto.JPG" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionFacture.jpg" class="img-fluid">'+
+             '<img src="vista/MDB v4.14.1/img/aspel/factureCosto.JPG" class="img-fluid">';
             break;
         case 6:
-           img = '<img src="vista/MDB v4.14.1/img/aspel/cajaCosto.JPG" class="img-fluid">';
+           img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionCaja.jpg" class="img-fluid">'+
+           '<img src="vista/MDB v4.14.1/img/aspel/cajaCosto.JPG" class="img-fluid">';
            break;
         case 7:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/noiCosto.JPG" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNoi.jpg" class="img-fluid">'+
+            '<img src="vista/MDB v4.14.1/img/aspel/noiCosto.JPG" class="img-fluid">';
             break;
         case 8:
-             img = '<img src="vista/MDB v4.14.1/img/aspel/prodCosto.JPG" class="img-fluid">';
+             img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionProd.jpg" class="img-fluid">'+
+             '<img src="vista/MDB v4.14.1/img/aspel/prodCosto.JPG" class="img-fluid">';
             break;
     }
 
