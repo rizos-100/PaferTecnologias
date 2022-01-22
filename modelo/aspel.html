@@ -1,108 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pafer Tecnologias</title>
-    <link rel="stylesheet" href="vista/MDB v4.14.1/css/stylesCarousel.css">
-    <script src="vista/MDB v4.14.1/js/concurrentThread.js"></script>
-    <script src="controlador/funcionAspel.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pafer Tecnologias</title>
+  <link rel="stylesheet" href="vista/MDB v4.14.1/css/stylesCarousel.css">
+  <link rel="stylesheet" href="vista/MDB v4.14.1/css/style.css">
+  <script src="vista/MDB v4.14.1/js/concurrentThread.js"></script>
+  <script src="controlador/funcionAspel.js"></script>
+
 
 </head>
+
 <body>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <div class="jumbotron jumbotron-fluid text-dark" style="background: url('vista/MDB v4.14.1/img/aspel/fondoAspel.jpg') 
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="jumbotron jumbotron-fluid text-dark" style="background: url('vista/MDB v4.14.1/img/aspel/fondoAspel.jpg')
                 no-repeat fixed center;
                 background-size: cover;
                 height: 100%;
                 width: 100% ;">
-                    <div class="container">
-                      <h1 class="display-4">Haz crecer tu negocio...</h1>
-                      <p class="lead">Si necesitas facturar, tener al dia tus impuestos, llevar tu contabilidad<br>
-                                      tener un registro de tus empleados,etc. Esta es tu mejor opción, para<br>
-                                      conocer los precios de cada sistema da click en la imagen<br> 
-                                      del producto que quieres concer..<br>
-                      </p>
-                    </div>
-                  </div>
-            </div>
-            <div id="content" class="col-md-10">
-                <div id="carrusel">
-                    <a href="#" class="left-arrow text-dark h3"><i class="fas fa-chevron-left"></i></a>
-                    <a href="#" class="right-arrow text-dark h3"><i class="fas fa-chevron-right"></i></a>
-                    <div class="carrusel">
-                        <div class="product" id="product_0">
-                            <a href="#" onclick="cambiarImg(1)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelSAE.jpg" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_1">
-                            <a href="#" onclick="cambiarImg(2)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelCOI.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_2">
-                            <a href="#" onclick="cambiarImg(3)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelBANCOS.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_3">
-                            <a href="#" onclick="cambiarImg(4)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelADM.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_4">
-                            <a href="#" onclick="cambiarImg(5)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelFACTURE.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_5">
-                            <a href="#" onclick="cambiarImg(6)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelCAJA.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_6">
-                            <a href="#" onclick="cambiarImg(7)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelNOI.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                        <div class="product" id="product_7">
-                            <a href="#" onclick="cambiarImg(8)" data-toggle="modal" data-target="#centralModalSm">
-                                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelPROD.png" width="200px;" height="200px;"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 text-center">
-                <img src="vista/MDB v4.14.1/img/aspel/fondoAspelPafer.jpg" class="img-fluid">
-            </div>
+          <div class="container">
+            <h1 class="display-4">Haz crecer tu negocio...</h1>
+            <p class="lead">Si necesitas facturar, tener al dia tus impuestos, llevar tu contabilidad<br>
+              tener un registro de tus empleados,etc. Esta es tu mejor opción, para<br>
+              conocer los precios de cada sistema da click en la imagen<br>
+              del producto que quieres conocer..<br>
+            </p>
+          </div>
         </div>
+      </div>
+      <div id="content" class="col-md-10">
+
+        <div class="col-md-12 py-3">
+          <div class="card blue-gradient">
+            <div class="card-body ">
+              <h1 class="card-title text-white text-center">Sistemas Aspel</h1>
+              <p class="h5 text-white">Para poder visualizar las caracteríticas y costos de los sistemas da click o
+                presiona
+                sobre el sistema que quieres conocer...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="carrusel">
+          <a href="#" class="left-arrow text-dark h3"><i class="fas fa-chevron-left"></i></a>
+          <a href="#" class="right-arrow text-dark h3"><i class="fas fa-chevron-right"></i></a>
+          <div class="carrusel">
+            <div class="product" id="product_0">
+              <a href="#" onclick="cambiarImg(1)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelSAE.jpg" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_1">
+              <a href="#" onclick="cambiarImg(2)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelCOI.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_2">
+              <a href="#" onclick="cambiarImg(3)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelBANCOS.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_3">
+              <a href="#" onclick="cambiarImg(4)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelADM.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_4">
+              <a href="#" onclick="cambiarImg(5)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelFACTURE.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_5">
+              <a href="#" onclick="cambiarImg(6)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelCAJA.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_6">
+              <a href="#" onclick="cambiarImg(7)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelNOI.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_7">
+              <a href="#" onclick="cambiarImg(8)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelPROD.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+            <div class="product" id="product_8">
+              <a href="#" onclick="cambiarImg(9)" data-toggle="modal" data-target="#centralModalSm">
+                <img src="vista/MDB v4.14.1/img/carouselAspel/aspelNUBE.png" width="200px;" height="200px;" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/W22y4-k3Ucs" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/tb_VvjzjekE" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/EYvdIX2Dw4A" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/iqlYe5AeFh0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/fa4yPQMGy5A" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/svl1QHLogGs" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/kbX_hvgtJLo" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="vista/MDB v4.14.1/img/aspel/fondoAspelPafer.jpg" class="img-fluid">
+      </div>
     </div>
-  
+  </div>
+
   <!-- Central Modal Small -->
   <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
-  
+
     <!-- Change class .modal-sm to change the size of the modal -->
     <div class="modal-dialog modal-lg" role="document">
-  
-  
+
+
       <div class="modal-content">
         <div class="modal-header text-white bg-default">
           <h4 class="modal-title w-100" id="myModalLabel">Costos de Sistemas Aspel</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" onclick="mostrarScroll()" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body text-center" id="contenidoAspel">
-           
+
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-danger" onclick="mostrarScroll()" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -110,18 +164,18 @@
   <!-- Central Modal Small -->
 
 
-  
+
   <!-- Central Modal Small -->
   <div class="modal fade" id="modalAnuncio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
-  
+
     <!-- Change class .modal-sm to change the size of the modal -->
     <div class="modal-dialog modal-lg" role="document">
-  
-  
+
+
       <div class="modal-content">
         <div class="modal-header bg-default text-white">
-          <h4 class="modal-title w-100" id="myModalLabel">Capacitacion y Cursos</h4>
+          <h4 class="modal-title w-100" id="myModalLabel">Capacitación y Cursos</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -131,13 +185,15 @@
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-success" onclick="cargarModuloCursos()" >Ir a Cursos</button>
-          <button type="button" class="btn btn-primary" onclick="cargarModuloCapacitacion()" >Ir a Capacitación</button>
+          <button type="button" class="btn btn-warning" onclick="cargarModuloCursos()">Ir a Costos</button>
+          <button type="button" class="btn btn-primary" onclick="mostrarScroll()" class="close" data-dismiss="modal"
+            aria-label="Close">Ver Sistemas</button>
         </div>
       </div>
     </div>
   </div>
   <!-- Central Modal Small -->
-    
+
 </body>
+
 </html>

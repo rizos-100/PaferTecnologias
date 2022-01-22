@@ -1,6 +1,6 @@
 var current = 0;
 var imagenes = new Array();
-var numImages = 9;
+var numImages = 11;
 
 $(document).ready(function() {
     
@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     $('.right-arrow').on('click', function() {
         if (numImages > current + 3) {
-            current = current+1;
+            current = current + 1;
         } else {
             current = 0;
         }
@@ -48,14 +48,15 @@ $(document).ready(function() {
  });
 
  window.setInterval(function(){
-    if (numImages > current + 3) {
-        current = current+1;
-    } else {
-        current = 0;
-    }
-    
-    $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
-  },4000);
+        if (numImages > current + 3) {
+            current = current + 1;
+        } else {
+            current = 0;
+        }
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}
+                            , 600);
+        console.log("TIMER ");
+     },40000);
 
 
   function cambiarImg(num){
@@ -63,6 +64,7 @@ $(document).ready(function() {
     switch(num){
         case 1:
             img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae.jpg" class="img-fluid">'+
+            '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae2.jpg" class="img-fluid"></img>'+
                 '<img src="vista/MDB v4.14.1/img/aspel/saeCosto.JPG" class="img-fluid">';
             break;
         case 2:
@@ -93,7 +95,12 @@ $(document).ready(function() {
              img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionProd.jpg" class="img-fluid">'+
              '<img src="vista/MDB v4.14.1/img/aspel/prodCosto.JPG" class="img-fluid">';
             break;
+        case 9:
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNube.jpg" class="img-fluid">'+
+            '<img src="vista/MDB v4.14.1/img/aspel/nubeCosto.jpg" class="img-fluid">';
+            break;
     }
 
     $('#contenidoAspel').html(img);
+    document.getElementsByTagName("html")[0].style.overflowY = "hidden";
   }
