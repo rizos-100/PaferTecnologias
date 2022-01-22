@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seguirdad</title>
+    <?php include('modelo/head.php'); ?>
 </head>
 
 <body>
+    <?php include('modelo/header.php'); ?>
+
+    <div class="container-fluid py-5">
     <div class="container-fluid">
         <div class="row justify-content-center ">
 
@@ -358,6 +359,9 @@
             interval: 2500
         });
     </script>
+    </div>
+
+    <?php include('modelo/footer.php'); ?>
 </body>
 
 </html>
