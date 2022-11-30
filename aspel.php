@@ -10,6 +10,24 @@
 </head>
 
 <body>
+    <?php
+
+    $linkYoutube = [
+        'https://www.youtube.com/embed/W22y4-k3Ucs',
+        'https://www.youtube.com/embed/tb_VvjzjekE',
+        'https://www.youtube.com/embed/EYvdIX2Dw4A',
+        'https://www.youtube.com/embed/iqlYe5AeFh0',
+        'https://www.youtube.com/embed/fa4yPQMGy5A',
+        'https://www.youtube.com/embed/svl1QHLogGs',
+        'https://www.youtube.com/embed/Iz9LI7WoU3I',
+        'https://www.youtube.com/embed/XBJNQ5BEZHg',
+        'https://www.youtube.com/embed/U_52KPCMAso',
+        'https://www.youtube.com/embed/P97-pd-fRYM',
+        'https://www.youtube.com/embed/YxeyGqtRbEU',
+        'https://www.youtube.com/embed/sIznEMZHQJo'
+    ];
+
+    ?>
     <?php include('modelo/header.php'); ?>
 
     <div class="container-fluid py-5">
@@ -98,27 +116,12 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/W22y4-k3Ucs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/tb_VvjzjekE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/EYvdIX2Dw4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
 
-
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/iqlYe5AeFh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/fa4yPQMGy5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-4 text-center">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/svl1QHLogGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
+                <?php foreach ($linkYoutube as $link) { ?>
+                    <div class="col-md-4 text-center">
+                        <iframe width="100%" height="370" src="<?= $link ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                <?php } ?>
 
                 <div class="col-md-6 text-center">
                     <img src="vista/MDB v4.14.1/img/aspel/fondoAspelPafer.jpg" class="img-fluid">
@@ -169,7 +172,7 @@
 
                     </div>
                     <div class="modal-footer">
-                        <a href="cursos.php" class="btn btn-warning" >Ir a Costos</a>
+                        <a href="cursos.php" class="btn btn-warning">Ir a Costos</a>
                         <button type="button" class="btn btn-primary" onclick="mostrarScroll()" class="close" data-dismiss="modal" aria-label="Close">Ver Sistemas</button>
                     </div>
                 </div>
@@ -177,10 +180,9 @@
         </div>
 
         <script>
-            setTimeout(()=>{
+            setTimeout(() => {
                 $('#modalAnuncio').modal('show');
-            },2000);
-            
+            }, 2000);
         </script>
 
         <!-- Central Modal Small -->
