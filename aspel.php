@@ -22,7 +22,6 @@
         'https://www.youtube.com/embed/Iz9LI7WoU3I',
         'https://www.youtube.com/embed/XBJNQ5BEZHg',
         'https://www.youtube.com/embed/U_52KPCMAso',
-        'https://www.youtube.com/embed/P97-pd-fRYM',
         'https://www.youtube.com/embed/YxeyGqtRbEU',
         'https://www.youtube.com/embed/sIznEMZHQJo'
     ];

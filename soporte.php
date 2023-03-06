@@ -50,8 +50,8 @@
                                             actualizaciones, soporte en equipos de computo,etc.
                                         </p>
                                         <p>Precios:<br>
-                                            <i class="fas fa-compass"></i> $400 + IVA<br>
-                                            <i class="far fa-compass"></i> Fuera de León $500 + IVA
+                                            <i class="fas fa-compass"></i> $500 + IVA<br>
+                                            <i class="far fa-compass"></i> Fuera de León $600 + IVA
 
                                         </p>
                                     </div>
@@ -86,8 +86,8 @@
                                             <li>Vigencia a agotarse las horas de servicio</li>
                                         </p>
                                         <p>Precios: <br>
-                                            <i class="fas fa-compass"></i> $2000 + IVA<br>
-                                            <i class="far fa-compass"></i> Fuera de León $2500 + IVA
+                                            <i class="fas fa-compass"></i> $2500 + IVA<br>
+                                            <i class="far fa-compass"></i> Fuera de León $3000 + IVA
                                         </p>
                                     </div>
                                     <div class="col-md-4 text-center">
@@ -121,8 +121,8 @@
                                             <li>Vigencia a agotarse las horas de servicio</li>
                                         </p>
                                         <p>Precios: <br>
-                                            <i class="fas fa-compass"></i> $3750 + IVA<br>
-                                            <i class="far fa-compass"></i> Fuera de León $4250 + IVA
+                                            <i class="fas fa-compass"></i> $5000 + IVA<br>
+                                            <i class="far fa-compass"></i> Fuera de León $5500 + IVA
                                         </p>
                                     </div>
                                     <div class="col-md-4 text-center">
@@ -156,8 +156,8 @@
                                             <li>Vigencia a agotarse las horas de servicio</li>
                                         </p>
                                         <p>Precios: <br>
-                                            <i class="fas fa-compass"></i> $7500 + IVA<br>
-                                            <i class="far fa-compass"></i> Fuera de León $8000 + IVA
+                                            <i class="fas fa-compass"></i> $9500 + IVA<br>
+                                            <i class="far fa-compass"></i> Fuera de León $10500 + IVA
                                         </p>
                                     </div>
                                     <div class="col-md-4 text-center">
