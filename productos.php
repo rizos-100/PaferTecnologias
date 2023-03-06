@@ -202,7 +202,7 @@
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <iframe src="https://www.pafertecnologias.com/controlador/visorPDF/web/viewer.html?file=docs/COSTOS_DE_TIMBRES_2022.pdf" style="min-height: 500px;" width="100%" height="100%"></iframe>
+                        <iframe src="<?php echo $URL_VISOR_PDF ?>COSTOS_DE_TIMBRES_2022.pdf" style="min-height: 500px;" width="100%" height="100%"></iframe>
                     </div>
                     <div class="modal-footer">
                         <button type="button" onclick="mostrarScroll()" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

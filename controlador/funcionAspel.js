@@ -97,7 +97,7 @@ $(document).ready(function() {
             break;
         case 9:
             img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNube.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/nubeCosto.jpg" class="img-fluid">';
+            '<img src="vista/MDB v4.14.1/img/aspel/nubeCosto_2023.png" class="img-fluid">';
             break;
     }
 

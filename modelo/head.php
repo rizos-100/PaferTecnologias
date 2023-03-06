@@ -28,4 +28,5 @@
         opacity: 1;
     }
     </style>
+    <?php $URL_VISOR_PDF = "https://pdf-viewer.pafertecnologias.com/web/viewer.html?file=docs/pafer/"; ?>
 </head>

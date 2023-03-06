@@ -259,7 +259,7 @@
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <iframe src="https://www.pafertecnologias.com/controlador/visorPDF/web/viewer.html?file=docs/COSTO_DE_CURSOS_2022.pdf" style="min-height: 500px;" width="100%" height="100%"></iframe>
+                        <iframe src="<?php echo $URL_VISOR_PDF ?>CF_2023.pdf" style="min-height: 500px;" width="100%" height="100%"></iframe>
                     </div>
                     <div class="modal-footer">
                         <button type="button" onclick="mostrarScroll()" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
