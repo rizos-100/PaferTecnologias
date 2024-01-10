@@ -6,9 +6,16 @@
 </head>
 
 <body>
-  <?php include('modelo/header.php'); ?>
+  <div class="container py-5" id="divModulos">
+    <div class="row">
+      <div class="col-md-12">
+        <?php include('modelo/header.php'); ?>
+      </div>
 
-  <div class="container-fluid py-5" id="divModulos">
+    </div>
+
+
+
     <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide col-md-12" data-ride="carousel" style="height: auto;">
         <ol class="carousel-indicators">
@@ -100,9 +107,14 @@
       </div>
     </div>
 
+    <div class="row">
+      <?php include('modelo/footer.php'); ?>
+    </div>
+
   </div>
 
-  <?php include('modelo/footer.php'); ?>
+<script src="controlador/infoPage.js"></script>
+
 </body>
 
 </html>
