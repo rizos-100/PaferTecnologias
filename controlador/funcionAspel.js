@@ -63,41 +63,41 @@ $(document).ready(function() {
       var img = '';
     switch(num){
         case 1:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae2.jpg" class="img-fluid"></img>'+
-                '<img src="vista/MDB v4.14.1/img/aspel/saeCosto_2023.jpg" class="img-fluid">';
+            img =/*  '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae.jpg" alt="img" class="img-fluid" />'+
+            '<img src="vista/MDB v4.14.1/img/aspel/descripcionSae2.jpg" class="img-fluid"></img />'+ */
+                '<img src="vista/MDB v4.14.1/img/aspel/saeCosto.jpg" class="img-fluid" />';
             break;
         case 2:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionCoi.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/coiCosto_2023.jpg" class="img-fluid">';
+            img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionCoi.jpg" class="img-fluid"/>'+ */
+            '<img src="vista/MDB v4.14.1/img/aspel/coiCosto.jpg" class="img-fluid" />';
             break;
         case 3:
-            img ='<img src="vista/MDB v4.14.1/img/aspel/descripcionBancos-.jpg" class="img-fluid">'+
-             '<img src="vista/MDB v4.14.1/img/aspel/bancoCosto_2023.jpg" class="img-fluid">';
+            img =/* '<img src="vista/MDB v4.14.1/img/aspel/descripcionBancos-.jpg" class="img-fluid" />'+ */
+             '<img src="vista/MDB v4.14.1/img/aspel/bancosCosto.jpg" class="img-fluid" />';
             break;
         case 4:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionAdm.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/admCosto_2023.jpg" class="img-fluid">';
+            img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionAdm.jpg" class="img-fluid" />'+ */
+            '<img src="vista/MDB v4.14.1/img/aspel/admCosto.jpg" class="img-fluid" />';
             break;
         case 5:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionFacture-.jpg" class="img-fluid">'+
-             '<img src="vista/MDB v4.14.1/img/aspel/factureCosto_2023.jpg" class="img-fluid">';
+            img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionFacture-.jpg" class="img-fluid" />'+ */
+             '<img src="vista/MDB v4.14.1/img/aspel/factureCosto.jpg" class="img-fluid" />';
             break;
         case 6:
-           img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionCaja-.jpg" class="img-fluid">'+
-           '<img src="vista/MDB v4.14.1/img/aspel/cajaCosto_2023.jpg" class="img-fluid">';
+           img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionCaja-.jpg" class="img-fluid" />'+ */
+           '<img src="vista/MDB v4.14.1/img/aspel/cajaCosto.jpg" class="img-fluid" />';
            break;
         case 7:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNoi-.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/noiCosto_2023.jpg" class="img-fluid">';
+            img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionNoi-.jpg" class="img-fluid" />'+ */
+            '<img src="vista/MDB v4.14.1/img/aspel/noiCosto.jpg" class="img-fluid" />';
             break;
         case 8:
-             img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionProd.jpg" class="img-fluid">'+
-             '<img src="vista/MDB v4.14.1/img/aspel/prodCosto_2023.jpg" class="img-fluid">';
+             img = /* '<img src="vista/MDB v4.14.1/img/aspel/descripcionProd.jpg" class="img-fluid"- />'+ */
+             '<img src="vista/MDB v4.14.1/img/aspel/prodCosto.jpg" class="img-fluid" />';
             break;
         case 9:
-            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNube.jpg" class="img-fluid">'+
-            '<img src="vista/MDB v4.14.1/img/aspel/nubeCosto_2023.png" class="img-fluid">';
+            img = '<img src="vista/MDB v4.14.1/img/aspel/descripcionNube.jpg" class="img-fluid">';
+           /*  '<img src="vista/MDB v4.14.1/img/aspel/nubeCosto.png" class="img-fluid" />'; */
             break;
     }
 
