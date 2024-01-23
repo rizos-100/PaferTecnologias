@@ -202,7 +202,19 @@
                         </button>
                     </div>
                     <div class="modal-body text-center">
-                        <iframe src="<?php echo $URL_VISOR_PDF ?>COSTOS_DE_TIMBRES_2022.pdf" style="min-height: 500px;" width="100%" height="100%"></iframe>
+                        <iframe src="<?php echo $URL_VISOR_PDF ?>COSTOS_DE_TIMBRES_2022.pdf" 
+                        style="display:none; min-height: 500px;" width="100%" height="100%"
+                        ></iframe>
+
+                        <img class="banner" 
+                        src="https://electo.pe/electo_newsite/wp-content/uploads/2020/03/banner-desarrollo-web.png" 
+                        alt="Banner"
+                        style="height: calc(50vh);">
+                        <div class="message">
+                            Este sitio está actualmente en desarrollo. ¡Vuelve pronto!
+                        </div>
+
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" onclick="mostrarScroll()" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

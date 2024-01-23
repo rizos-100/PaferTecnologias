@@ -27,6 +27,19 @@
         background: url('https://www.downgraf.com/wp-content/uploads/2014/09/01-progress.gif') 50% 50% no-repeat	rgb(255,255,255);
         opacity: 1;
     }
+
+    .banner {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .message {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+        }
     </style>
     <?php $URL_VISOR_PDF = "https://pdf-viewer.pafertecnologias.com/web/viewer.html?file=docs/pafer/"; ?>
+
+    
 </head>
